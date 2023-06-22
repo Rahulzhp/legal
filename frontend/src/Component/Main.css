@@ -112,12 +112,11 @@
 }
 
 .ContentArea {
-    margin: 159px 0 0 16%;
+    margin: 162px 0 0 16.5%;
     padding: 20px;
     z-index: -9999;
     position: relative;
     background-color: white;
-
     width: 84%;
     border-radius: 20px;
 }
@@ -176,17 +175,22 @@ h3 {
 
 #button {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     border: none;
-    margin-top: 20px;
+    align-items: center;
+    margin-top: 45px;
 
 }
 
 #button>button {
-    padding: 10px 25px;
+    padding: 10px 19px;
     border-radius: 10px;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #E4C441;
+    gap: 5px;
 }
 
 .body {
