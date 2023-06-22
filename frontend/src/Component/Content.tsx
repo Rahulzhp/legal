@@ -16,36 +16,36 @@ const Content = ({ prop }) => {
                     <Flex>
                         <div>
                             <p>Operating company</p>
-                            <h3>{prop.Operating_Company}</h3>
+                            <h3>Pro Legal Serve</h3>
                         </div>
 
                         <div>
                             <p>Company type</p>
-                            <h3>{prop.Company_type}</h3>
+                            <h3>B2B</h3>
                         </div>
                         <div>
                             <p>Law firm or buisness name</p>
-                            <h3>{prop.law}</h3>
+                            <h3>Flash</h3>
                         </div>
                     </Flex>
                     <div id="div">
                         <p>Address 1</p>
-                        <h3>{prop.Adress1}</h3>
+                        <h3>46, Basant Colony</h3>
                     </div>
 
                     <Flex>
                         <div>
                             <p>State</p>
-                            <h3>{prop.state}</h3>
+                            <h3>Jharkhand</h3>
                         </div>
 
                         <div>
                             <p>City</p>
-                            <h3>{prop.city}</h3>
+                            <h3>GRD</h3>
                         </div>
                         <div>
                             <p>County</p>
-                            <h3>{prop.country}</h3>
+                            <h3>India</h3>
                         </div>
                     </Flex>
 
@@ -53,12 +53,12 @@ const Content = ({ prop }) => {
                     <Flex>
                         <div>
                             <p>Zip code</p>
-                            <h3>{prop.zip}</h3>
+                            <h3>15552</h3>
                         </div>
 
                         <div>
                             <p>Phone number</p>
-                            <h3>{prop.phone}</h3>
+                            <h3>700375189</h3>
                         </div>
 
                     </Flex>
@@ -68,16 +68,16 @@ const Content = ({ prop }) => {
                     <Flex>
                         <div>
                             <p>Firm speciality</p>
-                            <h3>{prop.FS}</h3>
+                            <h3>Rhl gosh</h3>
                         </div>
                         <div>
                             <p>Case managment</p>
-                            <h3>{prop.Case_mangement}</h3>
+                            <h3>Family Law</h3>
                         </div>
                     </Flex>
                     <div id="div">
                         <p>Account manager</p>
-                        <h3>{prop.Account_manager}</h3>
+                        <h3>Server Manager</h3>
                     </div>
                 </div>
                 <div>
@@ -85,15 +85,15 @@ const Content = ({ prop }) => {
                     <Flex>
                         <div>
                             <p>New user invited</p>
-                            <h3>{prop.New_User_Inv}</h3>
+                            <h3>yash@.com</h3>
                         </div>
                         <div>
                             <p>New user added</p>
-                            <h3>{prop.New_User_added}</h3>
+                            <h3>rhl@.com</h3>
                         </div>
                         <div>
                             <p>Payment method changed</p>
-                            <h3>{prop.Payment_mail}</h3>
+                            <h3>arti@.com</h3>
                         </div>
                     </Flex>
                 </div>
