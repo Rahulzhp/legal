@@ -3,11 +3,7 @@
     height: 100vh;
 }
 
-@media (max-width: 450px) {
-    .header .Header_logo>h2 {
-        font-size: 0.9rem;
-    }
-}
+
 
 .Main_container {
     display: flex;
@@ -29,6 +25,9 @@
     margin-top: 150px;
     background-color: #F4F0E1;
     padding: 15px 0;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 700;
     padding-left: 10px;
     margin-right: 20px;
     border-radius: 0px 5px 5px 0px;
@@ -106,14 +105,20 @@
     display: block;
 }
 
+.UserLogo {
+    font-size: 19px;
+    color: black;
+
+}
+
 .ContentArea {
-    margin: 130px 0 0 16%;
+    margin: 159px 0 0 16%;
     padding: 20px;
     z-index: -9999;
     position: relative;
     background-color: white;
 
-    width: 80%;
+    width: 84%;
     border-radius: 20px;
 }
 
@@ -145,6 +150,7 @@ p {
     font-size: 18px;
     font-family: DM Sans;
     font-weight: 500;
+    line-height: 23.44px;
 }
 
 h3 {
@@ -153,6 +159,15 @@ h3 {
     font-family: DM Sans;
     font-weight: 700;
     margin-top: -5px;
+    line-height: 32.55px;
+}
+
+.ContentArea h1 {
+    color: #000;
+    font-size: 40px;
+    font-family: DM Sans;
+    font-weight: 700;
+    line-height: 52.08px;
 }
 
 .mobile .ContentArea {
@@ -251,16 +266,7 @@ h3 {
     width: 3.125rem;
 }
 
-@media (max-width: 520px) {
-    .mobile .Logo_bar>img {
-        width: 2.5rem;
-        margin-top: -0.9375rem;
-    }
 
-    .mobile .sidebar-exit-icon {
-        top: 3%;
-    }
-}
 
 .mobile .sidebar-icon.active::before {
     content: "";

@@ -1,0 +1,40 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "Operating_Company": "Pro legal serve",
+            "Company_type": "B2B",
+            "law": "Flash",
+            "Adress1": "46, Basant Colony",
+            "state": "jharkhand",
+            "city": "grd",
+            "country": "India",
+            "zip": "25544",
+            "phone": "7003751859",
+            "FS": "Family Law",
+            "Case mangement": "Server Manager",
+            "Account manager": "Rhl gosh",
+            "New_User_Inv": "rk@gmail.com",
+            "New_User_added": "rhl@gmail.com",
+            "Payment_mail": "legalserver@gmail.com"
+        },
+        {
+            "id": 2,
+            "Operating_Company": "Project mangement",
+            "Company_type": "SVG",
+            "law": "Gsm",
+            "Adress1": "55, Yaswant sikhar, Delhi",
+            "state": "Delhi",
+            "city": "Kanor bag",
+            "country": "India",
+            "zip": "5465",
+            "phone": "70065",
+            "FS": "Family Law",
+            "Case mangement": "Finance Manager",
+            "Account manager": "Rithik",
+            "New_User_Inv": "mj@gmail.com",
+            "New_User_added": "yash@gmail.com",
+            "Payment_mail": "project@gmail.com"
+        }
+    ]
+}
