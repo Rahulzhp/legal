@@ -7,6 +7,8 @@ import profile from "../Icons/Group3.png";
 import axios from 'axios';
 import Content from './Content';
 
+
+
 const Main = () => {
     const [data, setData] = useState([])
     useEffect(() => {
@@ -56,7 +58,7 @@ const Main = () => {
                 </nav>
                 {/* Body content goes here */}
                 {
-                    data && data.map((el) => <Content prop={el} key={el.id}/>)
+                    data && data.map((el, id) => <Content prop={el} key={id} />)
                 }
 
             </div>

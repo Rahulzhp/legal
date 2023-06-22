@@ -4,7 +4,7 @@ import Main from './Component/Main';
 
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div >
       <Main />
