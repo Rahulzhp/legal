@@ -13,7 +13,7 @@ import Content from './Content';
 const Main = () => {
     const [data, setData] = useState([])
     useEffect(() => {
-        axios.get("http://localhost:8080/posts")
+        axios.get("https://wild-ruby-wasp-garb.cyclic.app/posts")
             .then((res) => setData(res.data))
             .catch((er) => {
                 console.log(er)
